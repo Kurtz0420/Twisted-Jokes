@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Twisted Jokes</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="loginStatus">loginStatus</string>
+    <string name="profilePic">profilePicUrl</string>
+    <string name="warning">Culturally, Religiously and Politically Offensive Jokes Ahead</string>
+    <string name="dummy_buildup">I asked a pretty, young homeless woman if I could take her home. She smiled at me and said yes.</string>
+    <string name="dunny_delivery">The look on her face soon changed, however, when I walked off with her cardboard box.</string>
+    <string name="user_info_map">UserProfileInfoMap</string>
+    <string name="app_id_admob">ca-app-pub-4969646247809586~1273054966</string>
+    <string name="native_ad_test_id">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="BigPicture_Style">BigPicture</string>
+    <string name="Inbox_Style">Inbox</string>
+    <string name="Incoming_ForMainActivity">MainActivity</string>
+    <string name="Activity_Notification">Activity</string>
+    <string name="Image_Notification">image</string>
+    <string name="Style_Notification">style</string>
+    <string name="FreeVersion_NotificationSub">freeVersion</string>
+    <string name="paidVersion_accountType">paidVersion</string>
+    <string name="isPaidUser">isPaidUser</string>
+
+
+</resources>

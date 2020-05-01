@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_marginBottom="30dp"
+    android:background="@color/textBg"
+    >
+
+<!--    Button : filter:Recent, popular, Most hated, UserSubmission
+        Button : Add your joke
+        Button : Settings
+-->
+
+
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/addjokeuserJoke"
+        android:background="@drawable/button_background_our_joke"
+        android:src="@drawable/ic_add"
+        android:scaleType="center"
+        />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/filterJokesUserJoke"
+        android:background="@drawable/button_background_our_joke"
+        android:src="@drawable/ic_filter"
+        android:scaleType="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/settingsUserJoke"
+        android:background="@drawable/button_background_our_joke"
+        android:src="@drawable/ic_settings"
+        android:scaleType="center"
+        android:layout_marginEnd="10dp"
+
+        />
+
+</LinearLayout>

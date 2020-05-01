@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/menu_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"
+            />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/bookmarks"
+            android:title="Bookmarks"
+            android:icon="@drawable/ic_home"
+
+            />
+        <item
+            android:id="@+id/removeads"
+            android:title="Remove Ads"
+            android:icon="@drawable/ic_home"
+
+            />
+
+
+
+    </group>
+
+
+    <item android:title="communicate"
+        >
+        <menu>
+            <item
+                android:id="@+id/rate_menu"
+                android:title="Rate The App"
+                android:icon="@drawable/ic_home"
+
+
+                />
+
+
+            <item
+                android:id="@+id/menu_about"
+                android:title="About Us "
+                android:icon="@drawable/ic_home"
+
+                />
+
+            <item
+                android:id="@+id/menu_send"
+                android:title="Share With Friends"
+                android:icon="@drawable/ic_home"
+
+                />
+
+            <item
+                android:id="@+id/similar_apps"
+                android:title="Similar Apps"
+                android:icon="@drawable/ic_home"
+
+
+                />
+
+
+        </menu>
+
+    </item>
+</menu>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "444472567140",
+    "firebase_url": "https://twisted-jokes.firebaseio.com",
+    "project_id": "twisted-jokes",
+    "storage_bucket": "twisted-jokes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444472567140:android:0133be935c10279d768671",
+        "android_client_info": {
+          "package_name": "com.redditjokes.twistedjokes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444472567140-3k8vvjto2cgf4vup8v4mirp44odlpami.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.redditjokes.twistedjokes",
+            "certificate_hash": "4d236851104462a8ca2a14c4873efc7fadad9fe3"
+          }
+        },
+        {
+          "client_id": "444472567140-bvtf40ua7b3qrtvate421tmq2slmk97m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbIfS02SE-2y_ixlv-g48x9dY9BGGCXJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444472567140-bvtf40ua7b3qrtvate421tmq2slmk97m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

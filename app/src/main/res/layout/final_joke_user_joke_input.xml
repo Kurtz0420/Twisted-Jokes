@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/finalPreviewRelative"
+        android:visibility="gone"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is how others will see your joke"
+            android:textColor="@color/textColor"
+            android:id="@+id/note"
+            android:padding="20dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/textBg"
+            android:padding="40dp"
+            android:layout_below="@id/profile_info"
+
+            >
+
+            <!--        <ImageView-->
+            <!--            android:id="@+id/user_joke_iv"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="300dp"-->
+            <!--            android:scaleType="centerCrop"-->
+            <!--            app:layout_constraintEnd_toEndOf="parent"-->
+            <!--            app:layout_constraintStart_toStartOf="parent"-->
+            <!--            android:background="@color/textBg"-->
+            <!--            />-->
+
+            <include
+                android:id="@+id/jokes_tvs"
+                layout="@layout/snippet_jokes_tvs_our_joke"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+
+        <include
+            android:id="@+id/profile_info"
+            layout="@layout/snippet_profile_username_user_joke"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/note"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

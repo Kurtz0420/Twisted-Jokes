@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:id="@+id/tvsConstraintContainer"
+    android:visibility="visible"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background_our_joke"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="20dp"
+        android:id="@+id/tvsRelativeLayout"
+        >
+
+        <EditText
+            android:id="@+id/user_joke_buildup_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Drop your build up here"
+            android:textColor="@color/textColor"
+            android:padding="17dp"
+            android:gravity="start"
+            android:background="@null"
+            android:textColorHint="@color/textColor"
+            android:textSize="17sp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/textColor"
+            android:layout_below="@id/user_joke_buildup_input"
+            android:id="@+id/divider"
+            />
+
+        <EditText
+            android:id="@+id/user_joke_delivery_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Drop your delivery here"
+            android:textSize="17sp"
+            android:textColor="@color/textColor"
+            android:padding="17dp"
+            android:gravity="start"
+            android:layout_below="@id/user_joke_buildup_input"
+            android:background="@null"
+            android:textColorHint="@color/textColor"
+
+            />
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

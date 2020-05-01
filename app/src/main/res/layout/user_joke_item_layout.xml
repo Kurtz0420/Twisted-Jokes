@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="100dp"
+
+
+    >
+
+    <include
+        layout="@layout/snippet_profile_username_user_joke"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/profile_info"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/profile_info"
+        android:padding="40dp"
+        android:id="@+id/jokes_tv_rel"
+        android:background="@color/textBg"
+        >
+
+<!--        <ImageView-->
+<!--            android:id="@+id/user_joke_iv"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="300dp"-->
+<!--            android:scaleType="centerCrop"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            android:background="@color/textBg"-->
+<!--            />-->
+
+        <include
+            layout="@layout/snippet_jokes_tvs_our_joke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/jokes_tvs"
+            />
+    </RelativeLayout>
+
+    <include
+        layout="@layout/snippet_bottom_layout_our_joke_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/jokes_tv_rel"
+        android:layout_marginTop="15dp"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <item
+        android:id="@+id/recent"
+        android:title="Recent"/>
+
+    <item
+        android:id="@+id/popular"
+        android:title="Popular"/>
+
+    <item
+        android:id="@+id/most_toxic"
+        android:title="Most Toxic"/>
+
+
+    <item
+        android:id="@+id/my_submissions"
+        android:title="My Submissions"/>
+
+</menu>

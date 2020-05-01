@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2B2B2B</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#2D2D2D</color>
+
+
+    <color name="SubtleBlack">#242525</color>
+    <color name="transparentBlack">#0D000000</color>
+    <color name="white">#FFF</color>
+    <color name="textColor">#99999A</color>
+    <color name="textBg">#282828</color>
+
+
+    <!--For Random Color Picker-->
+    <color name="c1">#f78749</color>
+    <color name="c2">#4abcd9</color>
+    <color name="c3">#496075</color>
+    <color name="c4">#c48d81</color>
+    <color name="c5">#8c76a5</color>
+    <color name="c6">#ec7e74</color>
+    <color name="c7">#e1b975</color>
+    <color name="c8">#9b8271</color>
+    <color name="c9">#b7556b</color>
+    <color name="lightOfBackground">#2D2D2D</color>
+
+</resources>

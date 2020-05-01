@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="wrap_content">
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pick a username (anything)"
+        android:id="@+id/usernameEt"
+        android:textSize="20sp"
+        app:met_baseColor="@android:color/white"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="20"
+        app:met_primaryColor="?colorAccent"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:textColorHint="@color/textColor"
+        android:textColor="@color/textColor"
+        app:met_singleLineEllipsis="true" />
+
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_background_our_joke"
+        android:src="@drawable/ic_next"
+        android:id="@+id/proceed"
+        android:layout_marginTop="50dp"
+        />
+
+</LinearLayout>
